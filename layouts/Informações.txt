@@ -1,0 +1,33 @@
+FONTES:
+    - logo: avenir black
+    - textos do site: dosis regular
+ICONES:
+    https://thenounproject.com/search/?q=vegan
+
+CORES:
+	VERDE ESCURO: #99B23C
+	AZUL: #D4E6FF
+	VERDE CLARO: #F0FFBA
+	VERMELHO/LARANJA: #CC5D4F
+	MARROM: #B2584C
+	OFF WHITE: #FAFFEA
+	BACKGROUND: #ededed
+	*AZUL SEGUNDA OPÇAO: #191B30
+
+1 – Faça o seu cadastro no Vegetalize!
+É simples e rápido, podendo ser realizado automaticamente através de outras redes socais como o 
+Gmail ou Facebook. Para se cadastrar agora, clique aqui!
+
+2 – Personalize seu perfil!
+Escolha uma foto, seu objetivo e em quanto tempo você pretende atingir essa meta. A sua 
+transição será traçada de acordo com esses dados!
+
+3 – Inicie sua jornada!
+Agora você está pronto para iniciar a sua transição!
+Cumpra os desafios diários para conquistar as medalhas e manter o seu calendário atualizado.
+Utilize a plataforma para sanar suas dúvidas, encontrar lugares para comer e comprar produtos 
+veganos, e aprender mais sobre o seu novo estilo de vida!
+
+4 – Atingiu a sua meta? SUCESSO!
+Quando atingir a sua meta conte-nos como foi e está sendo a sua experiência! Você ainda poderá 
+continuar utilizando o Vegetalize e suas funcionalidades normalmente.

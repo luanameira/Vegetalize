@@ -1,0 +1,155 @@
+*{
+    margin:0;
+}
+#objetivos{
+    background-color: #99B23C;
+    width: 100vw;
+    height: 500px;
+}
+
+#projeto, #transicao{
+    background-color: #FAFAEE;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    font-size: 20pt; 
+}
+
+.caixaDoProjeto{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.textoProjeto{
+    width: 40vw;
+    text-align: justify;   
+}
+.textoProjeto p{
+    margin-top: 40px;
+}
+.folha{
+    width: 20vw; 
+}
+
+.folha img{
+    float: right;
+    margin-top: 60%;
+    animation: pulsar 3.3s linear infinite;
+    width: 170px;
+
+}
+
+.caixaDaTransicao{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.textoTransicao{
+    width: 38vw;
+    text-align: justify;   
+}
+.textoTransicao p{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.caixaDaTransicao h1{
+    text-align: end;
+   
+}
+.frigideira{
+    width: 20vw; 
+}
+
+.frigideira img{
+    transform: rotate(-10deg);
+    margin-top: 50%;
+    animation: mexer 1s step-end infinite;
+    width: 230px;
+   
+}
+
+@keyframes mexer{
+    0%{
+        transform: rotate(-10deg);
+    }
+    30%{
+        transform: rotate(-15deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    70%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(15deg);
+    }
+}
+
+@keyframes pulsar{
+    0%{
+        transform: scale(1.2);
+    }
+    30%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+#objetivos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#objetivos>div>div{
+    background-color: #FAFAEE;
+    border-radius:50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pilar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pilar p{
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.legendas{
+    font-size:1.6rem;
+    margin-top:20px; 
+    font-weight: bolder;
+}
+#coracao{
+    
+    width: 200px;
+    height: 200px;
+}
+.pilar p{
+    width: 70%;
+    text-align: center;
+}
+
+#arvore{
+    width: 180px;
+    height: 180px;
+}

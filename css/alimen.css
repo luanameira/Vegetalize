@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: #ededed;
+   
+}
+#conteudo{
+
+        height: 270vh;
+        margin: 0 auto;
+        background-color: white;
+        width: 80vw;
+        padding: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+#conteudo h2,h1{
+    color: black;
+    font-size: 26pt;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#conteudo p{
+
+    font-size: 18pt;
+}
+#conteudo div{
+
+    width: 80vw;
+}
+#conteudo img{
+    height: 170px;
+    margin: 2vw;
+    
+}

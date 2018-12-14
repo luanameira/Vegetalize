@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: #FAFAEE;
+}
+
+#conteudo p{
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border: 2px solid #99B23C;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    box-sizing: border-box;
+    border: 2px solid #99B23C;
+    border-radius: 4px;
+}
+
+input[type=password] {
+    box-sizing: border-box;
+    border: 2px solid #99B23C;
+    border-radius: 4px;
+}
+
+input[type=date] {
+    box-sizing: border-box;
+    border: 2px solid #99B23C;
+    border-radius: 4px;
+}
+
+.outros{
+    margin: 0 0 0 10px;
+}
+
+#dados{
+    display: flex;
+    justify-content: space-around;
+}
+
+#transicao{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+#cadastrais{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px 30px 0;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#cancelar{
+        border-radius: 8px;
+        height: 30px;
+        width: 80px;
+        border: none;
+        box-shadow: 1px 0 8px 1px rgba(204, 93, 79, 0.1), 0 1px 40px 0 rgba(204, 93, 79, 0.1);
+        outline: none;
+        background-color: #99B23C;
+        color: #FAFAEE;
+        font-weight: bolder;
+        font-size: 13px;
+        cursor: pointer;
+        margin-right: 50px;
+}
+
+#salvar{
+    border-radius: 8px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 0 8px 1px rgba(204, 93, 79, 0.1), 0 1px 40px 0 rgba(204, 93, 79, 0.1);
+    outline: none;
+    background-color: #99B23C;
+    color: #FAFAEE;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+}

@@ -1,0 +1,97 @@
+footer{
+    background-color: #99B23C;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+footer li{
+    list-style-type: none;
+    
+}
+.caixaFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100vw;
+
+}
+footer li a{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    color: #faffea;
+    font-size: 12pt;
+    
+
+
+    
+}
+#logoFooter{
+    width: 188px;
+    height: 40px;
+    
+
+
+}
+.fundoLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 210px;
+    
+    
+}
+.redes img{
+    width: 30px;
+}
+
+.redes{
+    background-color: #fafAEE;
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border: 4px solid #cc5d4f;
+}
+.redes:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: linear 0.1s;
+}
+.caixaRedes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caixaRedes>div{
+    display: flex;
+}
+
+
+#miniFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc5d4f;
+    height: 25px;
+    font-weight: 600;
+}
+h3{
+    margin-bottom: 8px;
+    color: #fafAEE;
+   
+}
+li a:hover{
+    text-decoration: none;
+}

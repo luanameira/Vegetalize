@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="../css/perfil.css">
+    <link rel="stylesheet" href="../css/headerPaginas.css">
+    <link rel="stylesheet" href="../css/calendario.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./paginas/perfil.js" defer></script>
+    <title>Meu Perfil</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <header>
+        <div>
+            <img src="../img/logo.png" alt="logo">
+        </div>
+        <div class="titulos">
+            <h1>MEU PERFIL</h1>
+        </div>
+    </header>
+
+
+    <section id="topPerfil">
+        <div id="configPerfil">
+            <img src="../img/fotoperfil.png" alt="">
+            <a href="#">EDITAR PERFIL</a>
+            <a href="../index.html">SAIR</a>
+
+        </div>
+        <div id="informaPerfil">
+            <h1 id="nome">Luana Meira</h1>
+            <div>
+                <select name="tiposTransicao" id="">
+                    <option value="tipos">Vegetariana Estrita</option>
+                    <!-- <option value="tipos">Tipos de Transição</option> -->
+                    <option value="tipos">Ovolactovegetariana</option>
+                    <option value="tipos">Lactovegetariana</option>
+
+                    <option value="tipos">Vegana</option>
+                </select>
+            </div>
+            <div class="linhaDoTempo">
+                <div id="linha"></div>
+                <div class="bola1 bolas">
+                    <h4>15 DIAS</h4>
+                </div>
+                <div class="bola2 bolas">
+                    <h4 class="maior">28 DIAS</h4>
+                </div>
+                <div class="bola3 bolas">
+                    <h4>5 DIAS</h4>
+                </div>
+
+            </div>
+            <div>
+                <p class="linkTransicao"><a href="#">Acompanhe seu trajeto de transição até aqui!</a></p>
+            </div>
+        </div>
+
+    </section>
+    <section id="bottomPerfil">
+        <div id="conquistas">
+            <div class="medalhas">
+                <h3>
+                    MINHAS MEDALHAS
+                </h3>
+                <div class="iconeMedalha">
+                    <img src="../img/medalhaouro.png" alt="">
+                    <img src="../img/medalhaprata.png" alt="">
+                    <img src="../img/medalhabronze.png" alt="">
+                </div>
+                <div class="numeroMedalha">
+                    <p>2</p>
+                    <p class="medalhaAntiga">3</p>
+                    <p class="mudarMedalha">4</p>
+                    <p>5</p>
+                </div>
+            </div>
+            <div id="calendario">
+                <div class="month">
+                    <ul>
+                        <li class="prev">&#10094;</li>
+                        <li class="next">&#10095;</li>
+                        <li>Agosto</li>
+                    </ul>
+                </div>
+
+                <ul class="weekdays">
+                    <li>Seg</li>
+                    <li>Ter</li>
+                    <li>Qua</li>
+                    <li>Qui</li>
+                    <li>Sex</li>
+                    <li>Sab</li>
+                    <li>Dom</li>
+                </ul>
+
+                <ul class="days">
+                    <li></li>
+                    <li></li>
+                    <li class="verde">1</li>
+                    <li class="verde">2</li>
+                    <li class="verde">3</li>
+                    <li class="verde">4</li>
+                    <li class="verde">5</li>
+                    <li class="verde">6</li>
+                    <li class="vermelho">7</li>
+                    <li class="verde">8</li>
+                    <li class="verde">9</li>
+                    <li class="verde">10</li>
+                    <li class="vermelho">11</li>
+                    <li class="pintarVerde">12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="caixaDesafio" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="1000" data-aos-duration="1000">
+
+            <div id="desafioDeHoje">
+                <div class="tituloDesafio">
+                    <img src="../img/cabeca.png" alt="">
+                    <h3>DESAFIO DE HOJE</h3>
+                </div>
+                <h5>Sem ovos hoje! </h5>
+
+                <div class="desafio">
+                    <p>
+                        Faça uma receita que não contenha ovos como ingrediente.
+                        <a href="#">Clique aqui para ver algumas receitas!</a>
+
+
+                    </p>
+                    <img src="../img/ovodesafio.png" alt="">
+                </div>
+                <div class="botoesDesafio">
+                    <p>Desafio Concluído?</p>
+                    <div>
+                        <button class="nao">&#10006;</button>
+                        <button class="sim">&#x2714;</button>
+                    </div>
+                </div>
+                <div class="desafioConcluido">
+                    <p>★ Desafio Concluído! ★</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer></footer>
+</body>
+
+</html>

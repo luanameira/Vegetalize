@@ -1,0 +1,103 @@
+body{
+    display:flex;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+* a{
+    text-decoration: none;
+    color:black;
+}
+
+legend{
+    font-weight: 520;
+    margin-top: 7px;   
+}
+header{
+    background-color: #FAFAEE;
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    justify-content: space-between;
+}
+.logo img{
+    width: 600px;
+}
+.logo{
+    padding: 30px;
+    margin-left: 50px;
+    margin-top:9px; 
+    width: 30vw;
+}
+.caixaBotoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    position: relative;
+    width:270px;
+}
+#pesquisar{
+    display: flex;
+    align-content: center;
+}
+.botoesIniciais{
+    width: 45px;
+    height: 45px; 
+}
+#botoes{
+    display: flex;
+    width: 20vw;
+}
+#botoes div:hover{
+    background-color:#cc5d4f;
+    transition: linear 0.3s;   
+}
+
+#botoes div{
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px; 
+}
+input[type=text]{
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+    height: 15px;
+    width: 150px;
+    border: none;
+    box-shadow: 1px 0 8px 1px rgba(204, 93, 79, 0.1), 0 1px 40px 0 rgba(204, 93, 79, 0.1);
+    outline: none;
+    background-image: url(../img/pesquisar.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: 133px;
+    background-position-y: 2px;
+}
+input:hover{
+    box-shadow: 1px 0 8px 1px rgba(0, 0, 0, 0.1), 0 1px 40px 0 rgba(0, 0, 0, 0.1);
+    transition: linear 0.3s;
+}
+#background{
+    background-image: url(../img/banner.png);
+    background-size: 100vw;
+    height: 300px;
+    display: flex;
+    width: 100vw;
+    align-items: center; 
+}
+.fraseEfeito{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.fraseEfeito h1{
+   font-size: 35pt;
+   font-weight: 400;
+}
+
